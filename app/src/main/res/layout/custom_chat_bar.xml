@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:layout_height="70dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:cropToPadding="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/profile_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/custom_profile_image"
+        android:layout_height="60dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/custom_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/custom_profile_image"
+            android:text="Display UserName"
+            android:textColor="@android:color/background_light"
+            android:textSize="19sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/custom_user_last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_profile_name"
+            android:layout_marginStart="20dp"
+            android:text="Last Seen"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/contactsettings"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_baseline_settings_24"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"/>
+</androidx.appcompat.widget.Toolbar>

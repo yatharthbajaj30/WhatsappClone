@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/Desktop/WhatsappClone/app/src/main/res/drawable/buttons.xml" value="0.17152777777777778" />
+        <entry key="..\:/Users/DELL/Desktop/WhatsappClone/app/src/main/res/drawable/ic_action_name.xml" value="0.17152777777777778" />
+        <entry key="..\:/Users/DELL/Desktop/WhatsappClone/app/src/main/res/drawable/reciver_message_layout.xml" value="0.17152777777777778" />
+        <entry key="..\:/Users/DELL/Desktop/WhatsappClone/app/src/main/res/layout/activity_find_friends.xml" value="0.10997267759562841" />
+        <entry key="..\:/Users/DELL/Desktop/WhatsappClone/app/src/main/res/layout/activity_log_in.xml" value="0.13046448087431695" />
+        <entry key="..\:/Users/DELL/Desktop/WhatsappClone/app/src/main/res/layout/activity_main.xml" value="0.13046448087431695" />
+        <entry key="..\:/Users/DELL/Desktop/WhatsappClone/app/src/main/res/layout/user_display_layout.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/buttons.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_action_message.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/reciver_message_layout.xml" value="0.22583961617546264" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_find_friends.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/layout/activity_image_view.xml" value="0.2152777777777778" />
+        <entry key="app/src/main/res/layout/activity_log_in.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/activity_phno_login.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/layout/activity_status.xml" value="0.44223107569721115" />
+        <entry key="app/src/main/res/layout/app_bar_layout.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/custom_chat_bar.xml" value="0.2152777777777778" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/fragment_request.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_status.xml" value="0.30520833333333336" />
+        <entry key="app/src/main/res/layout/message_layout.xml" value="0.2152777777777778" />
+        <entry key="app/src/main/res/layout/status_layout.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/layout/user_display_layout.xml" value="0.264" />
+        <entry key="app/src/main/res/menu/options_menu.xml" value="0.28703703703703703" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

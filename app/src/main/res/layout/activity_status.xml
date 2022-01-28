@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".StatusActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/users_profile_image_status"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/profile_image">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/user_status_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="@string/user_name"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/user_time_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="@string/user_name"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp">
+
+    </TextView>
+    <ProgressBar
+        android:id="@+id/user_status_progress"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:max="100"
+        android:progress="0"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="wrap_content">
+
+    </ProgressBar>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/status_image"
+        android:layout_height="500dp">
+
+    </ImageView>
+</LinearLayout>
